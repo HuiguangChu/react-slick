@@ -24,11 +24,9 @@ export var getTrackCSS = function(spec) {
   var style = {
     opacity: 1,
     width: trackWidth,
-    WebkitTransform: 'translate3d(' + spec.left + 'px, 0px, 0px)',
     transform: 'translate3d(' + spec.left + 'px, 0px, 0px)',
     transition: '',
-    WebkitTransition: '',
-    msTransform: 'translateX(' + spec.left + 'px)'
+    WebkitTransition: ''
   };
 
   return style;
